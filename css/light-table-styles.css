@@ -26,7 +26,6 @@ ul {
 }
 
 .container-border{
-
     border: 2px solid #6fc0ba;
     border-radius: 5px;
     box-shadow: 0 0 2px #005b8e, inset 0 0 2px #005b8e;
@@ -215,11 +214,13 @@ ul {
     position: absolute;
     top: 60px;
     overflow: hidden;
+    opacity: 0 !important;
 }
 
 #lt-readme .content {
     height: 300px;
     overflow: hidden;
+    opacity: 0 !important;
 }
 #lt-mobile-readme {
     position: absolute;
@@ -237,12 +238,14 @@ ul {
 #lt-bandwidth {
     position: absolute;
     top: 390px;
+    opacity: 0 !important;
 }
 
 #lt-globalization {
     position: absolute;
     top: 60px;
-    width: 470px;
+    left: 5px !important;
+    width: 98% !important;
 }
 
 #lt-globalization .content {
@@ -380,10 +383,10 @@ ul {
 }
 
 #lt-keyboard {
-    margin-left: 8px;
+    margin-left: 30%;
     position: absolute;
     top: 355px;
-    width: 470px;
+    width: 100%;
 }
 
 #lt-keyboard div{
@@ -404,16 +407,19 @@ ul {
 #lt-keyboard #k-9{
     clear: both;
     margin-left:10px;
+
 }
 
 #lt-keyboard #k-500{
     clear: both;
     margin-left:20px;
+
 }
 
 #lt-keyboard #k-16{
     clear: both;
     margin-left:5px;
+
 }
 
 #lt-keyboard #k-32 {
@@ -513,12 +519,13 @@ ul {
 
     #lt-keyboard {
         display: none;
+	float: center;
     }
 
     #lt-container-inside {
         position:absolute;
         left: 0;
-        top:0;
+        top: 0;
         width: 330px;
         height: 600px;
         z-index: 20;
@@ -671,16 +678,19 @@ ul {
 
     #lt-readme .content {
         height: 380px;
+	opacity: 0 !important;
     }
     #lt-readme .content p{
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 8px;
+	opacity: 0 !important;
     }
 
     #lt-bandwidth {
         top: 490px;
         width: 570px;
+	opacity: 0 !important;
     }
 
     #lt-globalization {
@@ -784,7 +794,7 @@ ul {
 
     #lt-bandwidth canvas {
         width: 100%;
-
+	opacity: 0 !important;
     }
 
     .folder-big {
